@@ -21,4 +21,18 @@ This will take quite some time, so don't be alarmed by this. Once it does comple
 
 <img width="1140" alt="Screenshot 2025-06-09 at 21 23 27" src="https://github.com/user-attachments/assets/16a35d42-cff4-4e9c-be0d-87592c65a999" />
 
+Once logged in, we need to add an agent to begin ingesting logs. This is a pretty straightforward process and Wazuh dies a good job of streamlining it. From the main page you will see a button to add a new agent:
 
+
+
+<img width="1385" alt="Screenshot 2025-06-10 at 01 03 08" src="https://github.com/user-attachments/assets/058c3b06-06e1-430c-91b5-39afd75b460f" />
+
+Once added, it will show up along with any other added machines, like the endpoint pictured above.
+
+## Endpoint Added
+
+Once added, we're at the main dashboard, from there, you start cooking. You can:
+
+1. Threat Hunt
+2. Scan for Vulnerabilities
+3. Make changes based on certain Complaince standards (NIST 800-53, GDPR etc.
