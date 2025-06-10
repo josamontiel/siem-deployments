@@ -48,5 +48,6 @@ One of the recommendations is to set auto updates for my apps, a very good pract
 
 <img width="866" alt="Screenshot 2025-06-10 at 01 56 35" src="https://github.com/user-attachments/assets/62a18d2a-951b-47c7-911e-53485a8b7505" />
 
+Once the recommendations are implemented the score will update. 
 
 
