@@ -33,6 +33,7 @@ Once added, it will show up along with any other added machines, like the endpoi
 
 Once added, we're at the main dashboard, from there, you start cooking. You can:
 
+
 1. Threat Hunt
 2. Scan for Vulnerabilities
 3. Make changes based on certain Complaince standards (NIST 800-53, GDPR etc.
@@ -50,4 +51,7 @@ One of the recommendations is to set auto updates for my apps, a very good pract
 
 Once the recommendations are implemented the score will update. 
 
+
+
+<img width="910" alt="Screenshot 2025-06-10 at 19 06 25" src="https://github.com/user-attachments/assets/26d99307-6ffc-4928-8e1b-dc9c3dc8155f" />
 
