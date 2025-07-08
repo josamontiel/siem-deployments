@@ -37,15 +37,25 @@ If I had to vizualize it, it'd look something like this:
 
 ![Log Analytics Worskpace](https://github.com/user-attachments/assets/6e296347-7f93-4200-9f8a-66b819492e09)
 
+### Step 4: ***Create a test VM to generate logs***
+To do this, I asked **copilot** to create me a cheap VM. This VM is only to confirm that everything else works so I was not too focused on the config of this. I did enable RDP access so I can create my own events by using the machine.
 
-#### Still to do:
-- Connect Data Sources
+### ***Step 5: Enable Data Connectors***
 
-- Install Built-In Workbooks and Analytics Rules
+I wanted to keep this as simple and as minimal as possible because I did not want to run up a cloud bill of $20,000! I am only configuring the Windows Security Event data connector just to reinforce the learning. 
+To add your own data connectors you will need to do the following:
 
-- Set Up Alerts and Incidents
+1. From your sentinel deployment, under ```configuration```, navigate to Data Conectors
+2. Go to content Hub
+3. Search for for Windows Security Events
+4. Select ```Open Connector page```
+5. Create a new data connector rule
+6. Select all logs, select the VM you created and create
 
----
+A video that helped me with this was [here](https://www.youtube.com/watch?v=zqtm-od6HqQ)
+
+And within minutes you will have logs being ingested into your SIEM
+
 ## Tools and Helpful Links
 
 * **KQL Query Reference**: [https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/)
