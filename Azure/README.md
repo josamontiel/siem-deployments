@@ -56,6 +56,9 @@ A video that helped me with this was [here](https://www.youtube.com/watch?v=zqtm
 
 And within minutes you will have logs being ingested into your SIEM
 
+<img width="761" alt="Screenshot 2025-07-08 at 18 44 40" src="https://github.com/user-attachments/assets/57a680c8-0e3f-47c2-b90e-5a249d3fe561" />
+
+
 ## Tools and Helpful Links
 
 * **KQL Query Reference**: [https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/)
